@@ -1,0 +1,19 @@
+# Copy to .env and fill values (do NOT commit .env with real secrets)
+
+# Supabase
+SUPABASE_URL=https://your-supabase-project.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role-key
+
+# Google PaLM / Gemini
+GOOGLE_PALM_API_KEY=your-google-palm-api-key
+
+# Postgres (for n8n DB & memory)
+POSTGRES_USER=n8n
+POSTGRES_PASSWORD=password
+POSTGRES_DB=n8n
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+
+# n8n
+N8N_HOST=localhost
+N8N_PORT=5678
