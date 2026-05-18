@@ -2,7 +2,7 @@
 
 Prerequisites
 - Docker & Docker Compose installed
-- Copy `env` → `.env` and fill the values
+- Copy `.env.example` → `.env` and fill the values
 
 1) Start services
 - Place `docker-compose.yml` in the repo root (see below)
