@@ -5,7 +5,7 @@ Two methods: n8n UI (recommended) or n8n CLI.
 1) UI (recommended)
 - Log into your n8n instance (http://localhost:5678 or your hosted URL).
 - Click "Workflows" → "Import".
-- Upload `RAGAgent1-n8n-workflow.sanitized.json` or paste its JSON.
+- Upload `RAGAgent1-n8n-workflow.json` or paste its JSON.
 - After import, open the workflow and review every node.
 - For each node that needs credentials (Google Drive, Google PaLM/Gemini, Supabase, Postgres), click the node and set the credential from the n8n credentials dropdown.
 - Replace placeholder values:
