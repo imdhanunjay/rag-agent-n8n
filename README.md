@@ -13,7 +13,7 @@ Quick links
 - Docs: https://github.com/imdhanunjay/rag-agent-n8n/tree/579d8a15acb6b92e5c95cb4daf9d6f29268327a3/docs (import, run locally, Supabase setup)
 - Demo assets: https://github.com/imdhanunjay/rag-agent-n8n/tree/579d8a15acb6b92e5c95cb4daf9d6f29268327a3/Assets
 
-Demo screenshot
+RAG Workflow screenshot
 SNAP1: <img width="1530" height="1010" alt="Image" src="https://github.com/user-attachments/assets/eae07fcd-64a2-4f03-baa3-e115ca5c4bc3" />
 SNAP2: <img width="2880" height="1497" alt="Image" src="https://github.com/user-attachments/assets/446f4b70-72b7-49d6-a80f-2692904102f8" />
 
