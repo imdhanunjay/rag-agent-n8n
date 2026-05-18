@@ -13,19 +13,40 @@ Quick links
 - Docs: https://github.com/imdhanunjay/rag-agent-n8n/tree/579d8a15acb6b92e5c95cb4daf9d6f29268327a3/docs (import, run locally, Supabase setup)
 - Demo assets: https://github.com/imdhanunjay/rag-agent-n8n/tree/579d8a15acb6b92e5c95cb4daf9d6f29268327a3/Assets
 
-RAG Workflow screenshot
-SNAP1: <img width="1530" height="1010" alt="Image" src="https://github.com/user-attachments/assets/eae07fcd-64a2-4f03-baa3-e115ca5c4bc3" />
-SNAP2: <img width="2880" height="1497" alt="Image" src="https://github.com/user-attachments/assets/446f4b70-72b7-49d6-a80f-2692904102f8" />
-
-DEMO
-https://github.com/user-attachments/assets/9abb84c8-8fe4-42c2-94ed-a06c116dbade
-
 Tech stack
 - n8n (workflow orchestration)
 - Google Gemini / PaLM (embeddings + chat)
 - Supabase (pgvector vector DB)
 - Postgres (chat memory)
 - Google Drive (document source)
+
+How I built it - concise architecture bullets
+Orchestrator: n8n - all flows are implemented as n8n nodes and connections.
+Ingestion pipeline:
+Google Drive node downloads the document.
+Default Data Loader → Embeddings Google Gemini node produces vector embeddings.
+Supabase Vector Store node inserts document + embedding into the documents table (pgvector).
+Retrieval & tool usage:
+Supabase Vector Store used in retrieve-as-tool mode so the AI Agent can call it for document lookups.
+LLM & chat:
+Google Gemini (PaLM) used for embeddings and chat:
+embeddingsGoogleGemini → embeddings
+lmChatGoogleGemini → chat model for agent replies
+Agent & memory:
+AI Agent node coordinates tools, model, and memory.
+Postgres Chat Memory node stores conversation context for the chat agent.
+Key tables/resources:
+Supabase documents table: id, content, metadata, embedding vector (dimension must match model).
+Postgres DB: chat memory storage for context.
+Security practice:
+Workflow export is sanitized — credentials are configured inside n8n instance only; use env vars locally and GitHub Secrets for CI.
+
+RAG Workflow screenshot
+SNAP1: <img width="1530" height="1010" alt="Image" src="https://github.com/user-attachments/assets/eae07fcd-64a2-4f03-baa3-e115ca5c4bc3" />
+SNAP2: <img width="2880" height="1497" alt="Image" src="https://github.com/user-attachments/assets/446f4b70-72b7-49d6-a80f-2692904102f8" />
+
+DEMO
+https://github.com/user-attachments/assets/9abb84c8-8fe4-42c2-94ed-a06c116dbade
 
 Quickstart
 1. Create a Supabase project and enable pgvector.
