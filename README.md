@@ -9,7 +9,7 @@ A small RAG (Retrieval-Augmented Generation) agent built in n8n that:
 This repository contains a sanitized n8n workflow export you can import into your n8n instance. No credentials or secrets are included.
 
 Quick links
-- Workflow (sanitized): `RAGAgent1-n8n-workflow.sanitized.json`
+- Workflow (sanitized): `RAGAgent1-n8n-workflow.json`
 - Docs: `docs/` (import, run locally, Supabase setup)
 - Demo assets: `assets/images/` (add screenshots & GIFs)
 
@@ -28,7 +28,7 @@ Quickstart (high level)
 2. Create a Postgres DB (local or managed) for n8n memory.
 3. Obtain Google PaLM / Gemini API key.
 4. Run n8n locally (Docker Compose recommended).
-5. Import `RAGAgent1-n8n-workflow.sanitized.json` into n8n (see `docs/import-workflow.md`).
+5. Import `RAGAgent1-n8n-workflow.json` into n8n (see `docs/import-workflow.md`).
 6. In the n8n UI, add credentials for Google Drive, Google PaLM, Supabase, and Postgres.
 7. Update the Download file node with your Drive fileId and run the ingestion flow.
 
@@ -38,14 +38,13 @@ Security note
 - For CI use GitHub Secrets.
 
 Files in this repo
-- `RAGAgent1-n8n-workflow.sanitized.json` — sanitized workflow export (import into n8n)
-- `README.md` — project overview & quickstart
-- `.env.example` — example environment variables
+- `RAGAgent1-n8n-workflow.json` — sanitized workflow export (import into n8n)
+- `README.md` - project overview & quickstart
+- `.env.example` - example environment variables
 - `.gitignore`
-- `LICENSE` — MIT
-- `docs/` — setup and run instructions
-- `assets/` — screenshots and demo assets
-- `PITCH.md` — recruiter/CEO message template
+- `LICENSE` - MIT
+- `docs/` - setup and run instructions
+- `assets/` - screenshots and demo assets
 
 Contact
-imdhanunjay — https://github.com/imdhanunjay
+imdhanunjay - https://github.com/imdhanunjay
