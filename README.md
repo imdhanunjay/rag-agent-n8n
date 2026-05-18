@@ -27,7 +27,7 @@ Tech stack
 - Postgres (chat memory)
 - Google Drive (document source)
 
-Quickstart (high level)
+Quickstart
 1. Create a Supabase project and enable pgvector.
 2. Create a Postgres DB (local or managed) for n8n memory.
 3. Obtain Google PaLM / Gemini API key.
