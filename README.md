@@ -14,7 +14,7 @@ Quick links
 - Demo assets: `assets/images/` (add screenshots & GIFs)
 
 Demo screenshot
-- Add your workflow screenshot to `assets/images/screenshot-workflow.png` and a short GIF `<img width="2880" height="1474" alt="Image" src="https://github.com/user-attachments/assets/9dfe188c-2f84-4124-b2a0-a7d5aef3b41c" />`.
+- Add your workflow screenshot to '<img width="1530" height="1010" alt="Image" src="https://github.com/user-attachments/assets/eae07fcd-64a2-4f03-baa3-e115ca5c4bc3" />' '<img width="2880" height="1497" alt="Image" src="https://github.com/user-attachments/assets/446f4b70-72b7-49d6-a80f-2692904102f8" />'and a short GIF '<img width="2880" height="1474" alt="Image" src="https://github.com/user-attachments/assets/9dfe188c-2f84-4124-b2a0-a7d5aef3b41c" />'.
 
 Tech stack
 - n8n (workflow orchestration)
