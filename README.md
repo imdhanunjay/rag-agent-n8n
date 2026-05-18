@@ -16,8 +16,8 @@ Quick links
 Demo screenshot
 SNAP1: <img width="1530" height="1010" alt="Image" src="https://github.com/user-attachments/assets/eae07fcd-64a2-4f03-baa3-e115ca5c4bc3" />
 SNAP2: <img width="2880" height="1497" alt="Image" src="https://github.com/user-attachments/assets/446f4b70-72b7-49d6-a80f-2692904102f8" />
-DEMO
 
+DEMO
 https://github.com/user-attachments/assets/9abb84c8-8fe4-42c2-94ed-a06c116dbade
 
 Tech stack
