@@ -14,7 +14,7 @@ Quick links
 - Demo assets: `assets/images/` (add screenshots & GIFs)
 
 Demo screenshot
-- Add your workflow screenshot to '<img width="1530" height="1010" alt="Image" src="https://github.com/user-attachments/assets/eae07fcd-64a2-4f03-baa3-e115ca5c4bc3" />' '<img width="2880" height="1497" alt="Image" src="https://github.com/user-attachments/assets/446f4b70-72b7-49d6-a80f-2692904102f8" />'and a short GIF '[<img width="2880" height="1474" alt="Image" src="https://github.com/user-attachments/assets/9dfe188c-2f84-4124-b2a0-a7d5aef3b41c" />](https://github.com/user-attachments/assets/be113086-922a-45b1-9bd6-209ddd0254b8)'.
+- Add your workflow screenshot to SNAP1: <img width="1530" height="1010" alt="Image" src="https://github.com/user-attachments/assets/eae07fcd-64a2-4f03-baa3-e115ca5c4bc3" /> SNAP2: <img width="2880" height="1497" alt="Image" src="https://github.com/user-attachments/assets/446f4b70-72b7-49d6-a80f-2692904102f8" /> and a short DEMO 'https://github.com/user-attachments/assets/a4d72ce8-59cd-471f-a828-cb4ae59ff46f'.
 
 Tech stack
 - n8n (workflow orchestration)
