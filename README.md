@@ -9,9 +9,9 @@ A small RAG (Retrieval-Augmented Generation) agent built in n8n that:
 This repository contains a sanitized n8n workflow export you can import into your n8n instance. No credentials or secrets are included.
 
 Quick links
-- Workflow (sanitized): `RAGAgent1-n8n-workflow.json`
-- Docs: `docs/` (import, run locally, Supabase setup)
-- Demo assets: `assets/images/` (add screenshots & GIFs)
+- Workflow (sanitized): RAGAgent1-n8n-workflow.json
+- Docs: https://github.com/imdhanunjay/rag-agent-n8n/tree/579d8a15acb6b92e5c95cb4daf9d6f29268327a3/docs (import, run locally, Supabase setup)
+- Demo assets: https://github.com/imdhanunjay/rag-agent-n8n/tree/579d8a15acb6b92e5c95cb4daf9d6f29268327a3/Assets
 
 Demo screenshot
 SNAP1: <img width="1530" height="1010" alt="Image" src="https://github.com/user-attachments/assets/eae07fcd-64a2-4f03-baa3-e115ca5c4bc3" />
