@@ -1,23 +1,16 @@
 # Run n8n locally (Docker Compose)
 
+Purpose
+This file shows a simple Docker Compose setup to run n8n and a Postgres database locally for development and testing of this workflow.
+
 Prerequisites
-- Docker & Docker Compose installed
-- Copy `.env.example` → `.env` and fill the values
+- Docker and Docker Compose installed
+- Copy `.env.example` to `.env` in the repo root and fill values (do NOT commit `.env` with real secrets)
 
-1) Start services
-- Place `docker-compose.yml` in the repo root (see below)
-- Run:
-  docker compose up -d
+Example docker-compose.yml
+Save this file as `docker-compose.yml` in the repository root (or use the one already provided):
 
-2) Access n8n
-- Open http://localhost:5678
-- Log in (if you set auth) or start using the UI
-
-3) Stop services
-  docker compose down
-
-Example `docker-compose.yml` (minimal)
-```yaml name=docker-compose.yml
+```yaml
 version: "3.8"
 services:
   postgres:
